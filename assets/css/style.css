@@ -1,6 +1,10 @@
 .head {
-    background-color: white;
-    padding: 30px;
+    background-color: #ffffff;
+    padding: 43.5px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: fixed;
+    border-bottom: solid black 1px;
 }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -9,37 +13,38 @@ h2 {
     color: white;
     background-color: #4aaaa5;
     padding: 20px;
-    margin: 0px 500px 0px 120px;
+    margin: -24px 500px 0px 106px;
     position: fixed;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 .nav {
     color: #777777;
     padding: 10px;
-    position: fixed;
+    position: absolute;
 }
 .about {
-    margin: 22px 50px 0px 900px;
+    margin: 22px 50px 0px 840px;
     padding: 0px 20px;
     border-right: solid #777777 1px;
 }
 .portfolio {
-    margin: 22px 50px 0px 980px;
+    margin: 22px 50px 0px 920px;
     padding: 0px 20px;
     border-right: solid #777777 1px;
 }
 .contact {
-    margin: 22px 50px 0px 1080px;
+    margin: 22px 50px 0px 1020px;
     padding: 0px 20px;
 }
 main {
     background-image: url(../image/background.jpg);
-    opacity: 0.4;
+    background-size: 800px;
     z-index: -1;
+    position: fixed;
 }
 .content {
     position: relative;
-    margin: 50px 150px;
+    margin: 80px 150px;
     padding: 20px;
     background-color: #ffffff;
     z-index: 10;
