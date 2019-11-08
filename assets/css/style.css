@@ -1,50 +1,62 @@
 .head {
     background-color: #ffffff;
     padding: 43.5px;
+    margin-left: -10px;
     margin-bottom: 30px;
     width: 100%;
-    position: fixed;
-    border-bottom: solid black 1px;
+    position: relative;
+    border-bottom: solid #cccccc 1px;
 }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../image/background.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 1920px 1200px;    
+    z-index: -1;
+    margin-top: -10px;
+    position: fixed;
 }
 h2 {
     color: white;
     background-color: #4aaaa5;
     padding: 20px;
-    margin: -24px 500px 0px 106px;
+    margin: -24px 500px 0px 114px;
     position: fixed;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-.nav {
+.navbar{
+    float: right;
+    margin-right: 180px;
+    padding: 0px 20px;
+}
+a:hover {
+    color: #666666;
+}
+a:link {
     color: #777777;
-    padding: 10px;
-    position: absolute;
+}
+a:visited {
+    color: #777777;
 }
 .about {
-    margin: 22px 50px 0px 840px;
-    padding: 0px 20px;
+    margin: 10px;
+    padding: 0px 10px;
     border-right: solid #777777 1px;
+    text-decoration-line: none;
 }
 .portfolio {
-    margin: 22px 50px 0px 920px;
-    padding: 0px 20px;
+    padding-right: 10px;
     border-right: solid #777777 1px;
+    text-decoration-line: none;
 }
 .contact {
-    margin: 22px 50px 0px 1020px;
-    padding: 0px 20px;
-}
-main {
-    background-image: url(../image/background.jpg);
-    background-size: 800px;
-    z-index: -1;
-    position: fixed;
+    padding: 0px 10px;
+    text-decoration-line: none;
 }
 .content {
-    position: relative;
-    margin: 80px 150px;
+    margin: auto;
+    width: 50%;
     padding: 20px;
     background-color: #ffffff;
     z-index: 10;
@@ -52,4 +64,118 @@ main {
 h3 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.copyright {
+    position: fixed;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #666666;
+    margin-bottom: -0.1px;
+    border-top: solid #4aaaa5 10px;
+    z-index: 1;
+}
+.me {
+    float: left;
+    margin: 10px 30px 10px 0px;
+}
+.para {
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.block {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top:10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    resize: none;
+}
+label {
+    color: #777777;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 28px;
+    font-size: 16px;
+}
+.images {
+    float: left;
+    position: fixed;
+    margin-top: 20px;
+    width: 700px;
+}
+img {
+    margin: 0px 50px 50px 0px;
+}
+.music {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 177px;
+    color: #ffffff;
+    margin-top: 110px;
+    text-align: center;
+    position: fixed;
+}
+.games {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 177px;
+    color: #ffffff;
+    margin-top: 110px;
+    margin-left: 254px;
+    text-align: center;
+    position: fixed;
+}
+.tvshows {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 177px;
+    color: #ffffff;
+    margin-top: 300px;
+    text-align: center;
+    position: fixed;
+}
+.habits {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 177px;
+    color: #ffffff;
+    margin-top: 300px;
+    margin-left: 254px;
+    text-align: center;
+    position: fixed;
+}
+.other {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 177px;
+    color: #ffffff;
+    margin-top: 600px;
+    text-align: center;
+    position: fixed;
+}
+.clear {
+    clear: both;
 }
