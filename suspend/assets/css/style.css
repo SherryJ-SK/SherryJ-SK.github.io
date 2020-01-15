@@ -1,0 +1,234 @@
+/* ---- apply to whole page, background img ---- */
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(../image/background.jpg) no-repeat;
+    height: 1000px;
+    width: 100%;
+    background-size: 1920px 1200px;    
+    z-index: -1;
+    margin-top: -10px;
+    overflow-y: auto;
+}
+
+/* ---- header ---- */
+.head {
+    background-color: #ffffff;
+    padding: 43.5px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    border-bottom: solid #cccccc 1px;
+}
+h2 {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 130px;
+    margin: 0px 500px -44px 230px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* ---- navbar ---- */
+.navbar{
+    float: right;
+    margin-right: 280px;
+    padding: 0px 20px;
+}
+a:hover {
+    color: #666666;
+}
+a:link {
+    color: #777777;
+}
+a:visited {
+    color: #777777;
+}
+.about {
+    margin: 10px;
+    padding: 0px 10px;
+    border-right: solid #777777 1px;
+    text-decoration-line: none;
+}
+.portfolio {
+    padding-right: 10px;
+    border-right: solid #777777 1px;
+    text-decoration-line: none;
+}
+.contact {
+    padding: 0px 10px;
+    text-decoration-line: none;
+}
+
+/* ---- main block ---- */
+.content {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    background-color: #ffffff;
+    z-index: 10;
+    overflow: scroll;
+}
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* ---- index.html ---- */
+.me {
+    float: left;
+    margin: 10px 30px 10px 0px;
+}
+.para {
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.block {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top:10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+/* ---- contact.html ---- */
+label {
+    color: #777777;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 28px;
+    font-size: 16px;
+}
+
+/* ---- portfolio.html ---- */
+/* ---- images ---- */
+.img01 {
+    position: relative;
+    margin-top: 25px;
+    width: 250px;
+    height: auto;
+    float: left;
+    z-index: 5;
+}
+.img02 {
+    z-index: 5;
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin: 25px;
+    margin-left: 54px;
+}
+.img03 {
+    position: relative;
+    margin: 0px 50px 50px 0px;
+    width: 250px;
+    z-index: 5;
+    float: left;
+}
+.img04 {
+    float: left;
+    position: relative;
+    width: 250px;
+    z-index: 5;
+    margin: -238px 50px 50px 304px;
+}
+.img05 {
+    width: 250px;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    margin: -20px 50px 50px 0px;
+    float: left;
+}
+
+/* ---- tabs on images ---- */
+.music {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 227px;
+    color: #ffffff;
+    margin-top: 150px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.games {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 227px;
+    color: #ffffff;
+    margin: 150px 20px 50px 304px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.tvshows {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 227px;
+    color: #ffffff;
+    margin: 125px 50px 50px 0px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.habits {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 227px;
+    color: #ffffff;
+    margin: 125px 20px 50px 304px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+.other {
+    padding: 11.5px;
+    background-color: #4aaaa5;
+    opacity: 70%;
+    width: 227px;
+    color: #ffffff;
+    margin: 345px 50px 0px 0px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+}
+
+/* ---- footer ---- */
+.copyright {
+    position: fixed;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #666666;
+    margin-bottom: -0.1px;
+    border-top: solid #4aaaa5 10px;
+    z-index: 3;
+}
+
+/* ---- clear ---- */
+.clear {
+    clear: both;
+}

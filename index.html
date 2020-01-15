@@ -1,44 +1,148 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            My Portfolio
-        </title>
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    </head>
-    <body>
-        <div class="head">
-            <h2>
-                Sherry Jin
-            </h2>
-            <div class="navbar">
-                <a class="about" href="index.html">About me</a>
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
-                <a class="contact" href="contact.html">Contact</a>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="content">
-            <h3>
-                About Me
-            </h3>
-            <hr>
-            <div class="para">
-                <p>
-                    <img class="me" src="assets/image/me.jpg" width="300px" alt="me">
-                    Quisque vitae ex commodo, dictum ex at, congue metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus eros turpis, finibus ut ligula vel, sollicitudin porttitor ex. Nullam et convallis nunc. Phasellus feugiat sapien ac felis fermentum convallis in ac quam. Etiam eu sagittis arcu, viverra tempus lectus. Praesent in dolor vitae ligula laoreet egestas.
-                </p>
-                <p>
-                    Integer pharetra lobortis massa. Quisque eu magna sit amet purus tincidunt tincidunt. Vestibulum augue quam, sollicitudin consectetur volutpat a, varius eget mauris. Nulla et auctor orci. Nunc ullamcorper mi ac nunc placerat hendrerit ac nec sapien. Duis eros quam, interdum et finibus eu, porta id erat. Phasellus in posuere nulla. Morbi vestibulum nulla at malesuada blandit. Duis et massa viverra ante mattis condimentum.
-                </p>
-                <p>
-                    Phasellus consectetur vestibulum justo, vitae dignissim est scelerisque sit amet. Vivamus orci ligula, viverra vel aliquam sed, faucibus sit amet dolor. Nam mattis massa nec lectus pellentesque vulputate. Quisque sit amet tortor eget tellus tempus varius. Sed semper ullamcorper lorem ut porta. Phasellus placerat ac tortor quis vestibulum. Sed eleifend ipsum vitae nibh egestas tristique.  
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sherry Jin's Portfolio</title>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Parisienne&display=swap" rel="stylesheet">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p id="welcome">
+                    Sherry Jin
                 </p>
             </div>
         </div>
-        <br>
-        <br>
-        <p class="copyright">Copyright&copy;</p>
-    </body>
+        <div class="row">
+            <div class="col-md-8 btngroup btn-group" role="group">
+                <label class="btn btn-light color active" id="firsttab">
+                    Portfolio
+                </label>
+                <label class="btn btn-light color" id="secondtab">
+                    Projects
+                </label>
+                <label class="btn btn-light color" id="thirdtab">
+                    Technologies
+                </label>
+                <label class="btn btn-light color" id="fourthtab">
+                    Contacts
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 btngroup1" id="note">
+                <div class="row">
+                    <img class="col-md-4" id="photo" src="assets/images/white-image.png" alt="photo" style="display: block;">
+                    <p class="col-md-8" id="portfolio" style="display: block;">
+                        I am currently a full-time working accountant and have strong investingating skills and problem-solving
+                        skills. I'm always purse the career which can inpire me and allow me to create thing by my bare
+                        hand. 
+                    </p>    
+                </div>
+                <div id="projects" style="display: none;">
+                    <a class="titles" href="https://sherryj-sk.github.io/Project1/" target="_blank">Group project 1</a>
+                    <br>
+                    <img class="project_pic" src="assets/images/homepage.png" alt="project1">
+                    <p>
+                        This is a demo application can be considered as a starting point for a real company page as a
+                        third-party resource gathering engine. This application is developed under the concept of
+                        responsive design.
+                    </p>
+                    <a class="titles" href="https://sherryj-sk.github.io/week_server-side-APIs/" target="_blank">Weather
+                        Dashboard</a>
+                    <br>
+                    <img class="project_pic" src="assets/images/weather dashboard.png" alt="weather">
+                    <p>
+                        In this html user can key in the city to check the current weather, also the future 5 days
+                        weather. The information is receiving from the OpenWeather APIs objects, which through ajax in
+                        jquery and javascript.
+                    </p>
+                </div>
+                <div id="technologies" style="display: none;" class="text-center">
+                    <div class="tech">
+                        <p id="css3">
+                            CSS 3
+                        </p>
+                        <i class="fa fa-css3"></i>
+                        <p>
+                            CSS 3 is the latest evolution of the Cascading Style Sheets language
+                            and aims at extending CSS2, which allow me to bring the HTML a modern outlook.
+                        </p>
+                    </div>
+                    <div class="tech">
+                        <p id="js">
+                            JavaScript
+                        </p>
+                        <i class="fab fa-js"></i>
+                        <p>
+                            JavaScript is a high-level, just-in-time compiled, multi-paradigm programming language. I
+                            have leant and practiced ES6, Node.js also JQuery in many of applications.
+                        </P>
+                    </div>
+                    <div class="tech">
+                        <p id="bootstrap">
+                            Bootstrap 4
+                        </p>
+                        <i class="fa fa-bold"></i>
+                        <p>
+                            Bootstrap 4 is the most popular HTML, CSS, and JavaScript framework for developing
+                            responsive, mobile-first websites, which has been used in most of the my applications.
+                        </p>
+                    </div>
+                </div>
+                <div id="contacts" style="display: none;">
+                    <p>
+                        <i class="fa fa-phone-square"></i>+61 405067787
+                    </p>
+                    <p>
+                        <i class="fa fa-linkedin-square"></i>LinkedIn:
+                    </p>
+                    <p>
+                        <i class="fa fa-github-square"></i><a id="resume"
+                            href="https://github.com/SherryJ-SK">https://github.com/SherryJ-SK</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope"></i>a-sherry@live.com
+                    </p>
+                    <p>
+                        <i class="fa fa-weixin"></i>a-sherry
+                    </p>
+                    <p>
+                        <i class="fa fa-file-text-o"></i><a id="resume" href="assets/documents/resume.docx">Resume</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <Footer class="text-center mt-5">&#64; Sherry Jin</Footer>
+    </div>
+
+    <!-- Option footer-copyrighta footer-copyrightl JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compressed JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+
 </html>
