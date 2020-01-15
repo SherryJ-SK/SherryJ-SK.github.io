@@ -10,7 +10,7 @@ body {
     font-family: 'Parisienne', cursive;
     font-size: 5rem;
     color: #033600;
-    margin-top: 7rem;
+    margin-top: 4rem;
     z-index: 10;
     text-shadow: 2px 1.5px #364035;
     filter: blur(0.4px);
@@ -56,6 +56,7 @@ body {
     background-color: #f8f9fa;
     margin-left: 20.98rem;
     height: 50rem;
+    margin-bottom: 8rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
