@@ -13,7 +13,6 @@ body {
     margin-top: 4rem;
     z-index: 10;
     text-shadow: 2px 1.5px #364035;
-    filter: blur(0.4px);
 }
 
 .btn {
