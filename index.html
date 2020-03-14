@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -22,36 +23,50 @@
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container">
+        <!-- head/title -->
         <div class="row">
-            <div class="col-md-12 text-center">
-                <p id="welcome">
+            <div class="col-xs-8 col-md-4">
+                <p class="welcome">
                     Sherry Jin
                 </p>
+                <p id="welcomeSub">
+                    Studying Fullstack in Bootcamp
+                </p>
             </div>
-        </div>
-        <div class="row">
+            <!-- nav bar -->
             <div class="col-xs-8 col-md-8 btngroup btn-group" role="group">
-                <label class="btn btn-light color active" id="firsttab">
+                <label class="btn color active" id="firsttab">
                     Portfolio
                 </label>
-                <label class="btn btn-light color" id="secondtab">
+                <label class="btn color" id="secondtab">
                     Projects
                 </label>
-                <label class="btn btn-light color" id="thirdtab">
+                <label class="btn color" id="thirdtab">
                     Technologies
                 </label>
-                <label class="btn btn-light color" id="fourthtab">
+                <label class="btn color" id="fourthtab">
                     Contacts
                 </label>
             </div>
         </div>
+
+        <!-- main content section -->
         <div class="row">
-            <div class="col-xs-10 col-md-8 btngroup1" id="note">
+            <!-- photo -->
+            <div class="col-md-4">
+                <img id="profilePhoto" src="assets/images/mainpage02.jpg" alt="profile">
+            </div>
+
+            <div class="col-xs-10 col-md-6 btngroup1 wrapper" id="note">
+                <!-- self introduction -->
+                <div>
+                    <p class="welcome" id="hello">Hello,</p>
+                    <p id="aboutMe">a bit about me:</p>
+                </div>
                 <div class="row" id="base">
-                    <img class="col-md-4" id="photo" src="assets/images/white-image.png" alt="photo"
-                        style="display: block;">
-                    <p class="col-md-8" id="portfolio" style="display: block;">
+                    <!-- <img class="col-md-4" id="photo" style="display: block;"> -->
+                    <p class="col-md-10" id="portfolio" style="display: block;">
                         Sherry Jin, an accountant in a financial service company. From 2012 to 2015, she was an
                         undergraduate in the Macquarie University studying accounting. She then joins the current
                         company in 2016 working as a fund administrator. From Oct 2019, she started a new journey in
@@ -63,57 +78,117 @@
                         you follow her Instagram (@_sherry_ovo) you may see some arts she created.
                     </p>
                 </div>
-                <div id="projects" style="display: none;">
-                    <a class="titles" href="https://sherryj-sk.github.io/Project1/" target="_blank">Group project 1</a>
+                <!-- project introduction -->
+                <div class="col-xs-12 col-md-12" id="projects" style="display: none;">
+                    <div class="card">
+                        <img src="assets/images/project2.jpg" alt="project2" class="card-img-top project_pic">
+                        <div class="card-body">
+                            <h5 class="card-title">Group Project #2</h5>
+                            <p class="card-text">
+                                This is a web-based application, which is the simplest way to create a stunning static
+                                webpage. User is provided with three colour themes to choose from, and four buttons to
+                                allow the upload of images. User also can choose elements they wish to add to the page,
+                                and enter the text for those elements. Then a simple click provides them with a URL to
+                                view their page.
+                            </p>
+                            <a href="https://thawing-inlet-42364.herokuapp.com/" class="btn titles"
+                                target="_blank">Heroku Link</a>
+                        </div>
+                    </div>
                     <br>
-                    <img class="project_pic" src="assets/images/homepage.png" alt="project1">
-                    <p>
-                        This is a demo application can be considered as a starting point for a real company page as a
-                        third-party resource gathering engine. This application is developed under the concept of
-                        responsive design.
-                    </p>
-                    <a class="titles" href="https://sherryj-sk.github.io/week_server-side-APIs/" target="_blank">Weather
-                        Dashboard</a>
+                    <div class="card">
+                        <img src="assets/images/homepage.png" alt="project1" class="card-img-top project_pic">
+                        <div class="card-body">
+                            <h5 class="card-title">Group Project #1</h5>
+                            <p class="card-text">
+                                This is a demo application can be considered as a starting point for a
+                                real company page as a third-party resource gathering engine. This application is
+                                developed under the concept of responsive design.
+                            </p>
+                            <a href="https://sherryj-sk.github.io/Project1/" class="btn titles" target="_blank">Github
+                                Link</a>
+                        </div>
+                    </div>
                     <br>
-                    <img class="project_pic" src="assets/images/weather dashboard.png" alt="weather">
-                    <p>
-                        In this html user can key in the city to check the current weather, also the future 5 days
-                        weather. The information is receiving from the OpenWeather APIs objects, which through ajax in
-                        jquery and javascript.
-                    </p>
+                    <div class="card">
+                        <img src="assets/images/weather dashboard.png" alt="project1" class="card-img-top project_pic">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">
+                                In this html user can key in the city to check the current weather, also the future 5
+                                days weather. The information is receiving from the OpenWeather APIs objects, which
+                                through
+                                ajax in jquery and javascript.
+                            </p>
+                            <a href="https://sherryj-sk.github.io/week_server-side-APIs/" class="btn titles"
+                                target="_blank">Github Link</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <img src="assets/images/burger.jpg" alt="burger" class="card-img-top project_pic">
+                        <div class="card-body">
+                            <h5 class="card-title">Eat De Burger</h5>
+                            <p class="card-text">
+                                Eat De Burger is a restaurant application that allow user to enter the name of burger
+                                that they'd like eat, after 'order' placed, they can 'devour' it and remove the burger
+                                when they would like to 'try again'.
+                                This application follow the MVC design pattern and logger with MySQL, Node, Express,
+                                Handlebars and ORM.
+                            </p>
+                            <a href="https://sherryj-sk.github.io/week_server-side-APIs/" class="btn titles"
+                                target="_blank">Heroku Link</a>
+                        </div>
+                    </div>
+
                 </div>
-                <div id="technologies" style="display: none;" class="text-center">
-                    <div class="tech">
-                        <p id="css3">
+
+                <!-- technologies introduction -->
+                <div id="technologies" style="display: none;" class="row">
+                    <div class="tech col-md-4" id="col1">
+                        <p>
+                            <i class="fa fa-css3"></i>
                             CSS 3
                         </p>
-                        <i class="fa fa-css3"></i>
                         <p>
-                            CSS 3 is the latest evolution of the Cascading Style Sheets language
-                            and aims at extending CSS2, which allow me to bring the HTML a modern outlook.
-                        </p>
-                    </div>
-                    <div class="tech">
-                        <p id="js">
+                            <i class="fab fa-js"></i>
                             JavaScript
-                        </p>
-                        <i class="fab fa-js"></i>
-                        <p>
-                            JavaScript is a high-level, just-in-time compiled, multi-paradigm programming language. I
-                            have leant and practiced ES6, Node.js also JQuery in many of applications.
                         </P>
-                    </div>
-                    <div class="tech">
-                        <p id="bootstrap">
+                        <p>
+                            <i class="fa fa-bold"></i>
                             Bootstrap 4
                         </p>
-                        <i class="fa fa-bold"></i>
+                    </div>
+                    <div class="tech col-md-4" id="col2">
                         <p>
-                            Bootstrap 4 is the most popular HTML, CSS, and JavaScript framework for developing
-                            responsive, mobile-first websites, which has been used in most of the my applications.
+                            <img src="assets/images/node.png" class="col2Image">
+                            Node Js
+                        </p>
+                        <p>
+                            <img src="assets/images/Expressjs.png" class="col2Image">
+                            Express Js
+                        </p>
+                        <p>
+                            <img src="assets/images/mysql.png" class="col2Image">
+                            MySQL
+                        </p>
+                    </div>
+                    <div class="tech col-md-4" id="col3">
+                        <p>
+                            <img src="assets/images/materialize.png" class="col3Image">
+                            Materialize
+                        </p>
+                        <p>
+                            <img src="assets/images/sequelize.png" class="col3Image">
+                            Sequelize
+                        </p>
+                        <p>
+                            <img src="assets/images/handlebars.png" class="col3Image">
+                            Handlebars Js
                         </p>
                     </div>
                 </div>
+                <!-- contact page -->
                 <div id="contacts" style="display: none;">
                     <p>
                         <i class="fa fa-phone-square"></i>+61 405067787

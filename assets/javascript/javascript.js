@@ -4,8 +4,8 @@ $(document).ready(function () {
     const project = document.querySelector("#projects");
     const technologies = document.querySelector("#technologies");
     const contacts = document.querySelector("#contacts");
-    const buttons = document.getElementsByClassName("btn");
-    const photo =document.querySelector("#photo");
+    const buttons = document.getElementsByClassName("color");
+    // const photo =document.querySelector("#photo");
 
 
     $(buttons).click(function buttonClick() {
@@ -21,7 +21,7 @@ $(document).ready(function () {
             $("#fourthtab").removeClass("active");
 
             portfolio.style.display = "block";
-            photo.style.display = "block";
+            // photo.style.display = "block";
             project.style.display = "none";
             technologies.style.display = "none";
             contacts.style.display = "none";
@@ -32,7 +32,7 @@ $(document).ready(function () {
             $("#fourthtab").removeClass("active");
 
             portfolio.style.display = "none";
-            photo.style.display = "none";
+            // photo.style.display = "none";
             project.style.display = "block";
             technologies.style.display = "none";
             contacts.style.display = "none";
@@ -43,7 +43,7 @@ $(document).ready(function () {
             $("#fourthtab").removeClass("active");
 
             portfolio.style.display = "none";
-            photo.style.display = "none";
+            // photo.style.display = "none";
             project.style.display = "none";
             technologies.style.display = "block";
             contacts.style.display = "none";
@@ -54,7 +54,7 @@ $(document).ready(function () {
             $("#fourthtab").addClass("active");
 
             portfolio.style.display = "none";
-            photo.style.display = "none";
+            // photo.style.display = "none";
             project.style.display = "none";
             technologies.style.display = "none";
             contacts.style.display = "block";
