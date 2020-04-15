@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "icon": "fa fa-css3",
+        "p": "CSS 3"
+    },
+    {
+        "id": 2,
+        "icon": "fab fa-js",
+        "p": "JavaScript"
+    },
+    {
+        "id": 3,
+        "icon": "fa fa-bold",
+        "p": "Bootstrap 4"
+    }
+]

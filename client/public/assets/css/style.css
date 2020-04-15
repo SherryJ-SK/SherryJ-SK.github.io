@@ -191,10 +191,10 @@ body {
     color: #212529;
 }
 
-footer {
+#footer {
     font-family: 'Montserrat Alternates', sans-serif;
     position: fixed;
-    color: #ffffff;
+    color: #4E2E54;
     left: 0;
     bottom: 0;
     width: 100%;

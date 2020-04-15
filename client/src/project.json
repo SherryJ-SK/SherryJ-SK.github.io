@@ -1,0 +1,26 @@
+[
+    {
+        "image": "assets/images/project2.jpg",
+        "title": "Group Project #2",
+        "text": "This is a web-based application, which is the simplest way to create a stunning static webpage. User is provided with three colour themes to choose from, and four buttons to allow the upload of images. User also can choose elements they wish to add to the page, and enter the text for those elements. Then a simple click provides them with a URL to view their page.",
+        "href": "https://thawing-inlet-42364.herokuapp.com/"
+    },
+    {
+        "image": "assets/images/homepage.png",
+        "title": "Group Project #1",
+        "text": "This is a demo application can be considered as a starting point for a real company page as a third-party resource gathering engine. Then a simple click provides them with a URL to view their page. This application is developed under the concept of responsive design.",
+        "href": "https://sherryj-sk.github.io/Project1/"
+    },
+    {
+        "image": "assets/images/weather dashboard.png",
+        "title": "Weather Dashboard",
+        "text": "In this html user can key in the city to check the current weather, also the future 5 days weather. The information is receiving from the OpenWeather APIs objects, which through ajax in jquery and javascript.",
+        "href": "https://sherryj-sk.github.io/week_server-side-APIs/"
+    },
+    {
+        "image": "assets/images/burger.jpg",
+        "title": "Eat De Burger",
+        "text": "Eat De Burger is a restaurant application that allow user to enter the name of burger that they'd like eat, after 'order' placed, they can 'devour' it and remove the burger when they would like to 'try again'. This application follow the MVC design pattern and logger with MySQL, Node, Express, Handlebars and ORM.",
+        "href": "https://sherryj-sk.github.io/week_server-side-APIs/"
+    }
+]

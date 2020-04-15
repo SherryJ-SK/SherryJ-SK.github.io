@@ -1,0 +1,20 @@
+[
+    {
+        "id": 7,
+        "image": "assets/images/materialize.png",
+        "p": "Materialize",
+        "class":"col3Image"
+    },
+    {
+        "id": 8,
+        "image": "assets/images/sequelize.png",
+        "p": "Sequelize",
+        "class":"col3Image"
+    },
+    {
+        "id": 9,
+        "image": "assets/images/handlebars.png",
+        "p": "Handlebars",
+        "class":"col3Image"
+    }
+]
