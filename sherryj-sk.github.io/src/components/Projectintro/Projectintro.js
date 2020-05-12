@@ -2,7 +2,7 @@ import React from "react";
 
 function Projectintro(props) {
     return (
-        <div>
+        <div className="col-md-6">
             <div className="card">
                 <img src={props.image} alt={props.title} className="card-img-top project_pic" />
                 <div className="card-body">
@@ -14,7 +14,6 @@ function Projectintro(props) {
                         target="_blank" rel="noopener noreferrer">Heroku Link</a>
                 </div>
             </div>
-            <br />
         </div>
     );
 }

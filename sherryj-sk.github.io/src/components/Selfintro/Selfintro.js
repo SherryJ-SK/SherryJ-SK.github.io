@@ -2,16 +2,27 @@ import React from "react";
 
 function Selfintro() {
     return (
-        <div className="col-md-10" id="portfolio" style={{ display: "block" }}>
-            Sherry Jin, an accountant in a financial service company. From 2012 to 2015, she was an
-            undergraduate in the Macquarie University studying accounting. She then joins the current
-            company in 2016 working as a fund administrator. From Oct 2019, she started a new journey in
-            Bootcamp and learning coding full stack.
+        <div className="col-md-12" id="portfolio" style={{ display: "block" }}>
+            Full Stack Developer with accouting background where I help solve clients' 
+            queries through excellent communication and problem-solving skills.
             <br />
             <br />
-            Outside of office and Bootcamp, she like to do drawing and calligraphy. In her spare time, she
-            always willing to learn new knowledge and enjoy the time when she creating by her own hand. If
-            you follow her Instagram (@_sherry_ovo) you may see some arts she created.
+            I enjoy establishing functional websites, which not only have great 
+            UX but also have greate UI. With each project, my goal is to design an 
+            user interface that improves user experience through the use of organised 
+            structure and concise design.
+            <br />
+            <br />
+            Recently earned a Certificate in Full Stack Development from University of 
+            Sydney Bootcamp, wtih strong fundamentals of multiple languages, HTML, CSS 
+            and JavaScript. Currently working on an individual project to build a MERN 
+            stack application, which allows the users to know and enjoy the game, 
+            Animal Crossing and enabling them to share userful information and 
+            communicate with friends.
+            <br />
+            <br />
+            I am able to apply my past experience in the workplace and the required 
+            knowledge acquired from the Bootcamp to work on both front and bank end development.
         </div>
     );
 }

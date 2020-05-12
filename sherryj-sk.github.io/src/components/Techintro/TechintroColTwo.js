@@ -3,10 +3,10 @@ import React from "react";
 
 function TechintroColTwo(props) {
     return (
-        <p>
+        <li>
             <img src={props.image} className={props.class} alt={props.p} />
             {props.p}
-        </p>
+        </li>
     )
 }
 

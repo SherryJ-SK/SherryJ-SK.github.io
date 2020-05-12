@@ -2,10 +2,10 @@ import React from "react";
 
 function Techintro(props) {
     return (
-        <p>
+        <li>
             <i className={props.icon}></i>
             {props.p}
-        </p>
+        </li>
     )
 }
 export default Techintro;

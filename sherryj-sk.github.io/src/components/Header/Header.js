@@ -7,7 +7,7 @@ function Header() {
                 Sherry Jin
                 </p>
             <p id="welcomeSub">
-                Studying Fullstack in Bootcamp
+                Full Stack Developer with Accounting background
                 </p>
         </div>
     );

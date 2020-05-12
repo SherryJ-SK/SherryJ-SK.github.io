@@ -6,22 +6,29 @@ body {
     background-repeat: no-repeat;
 }
 
+.wrapper {
+    margin-left: 50px;
+}
+
+.row {
+    margin-right: 0;
+}
 .welcome {
     font-family: 'Bree Serif', serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #4E2E54;
-    margin-top: 2rem;
+    margin-top: 1rem;
     z-index: 10;
     /* text-shadow: 2px 1.5px #364035; */
 }
 #hello {
     /* margin-left: 5rem; */
-    font-size: 5.5rem;
+    font-size: 4rem;
     color: #4E2E54;
 }
 
 #aboutMe {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: -1.5rem;
     font-family: 'Bree Serif', serif;
     color: #4E2E54;
@@ -29,16 +36,16 @@ body {
 
 #welcomeSub {
     font-family: 'Bree Serif', serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: -1.5rem;
     color: #4E2E54;
 }
 
 #profilePhoto {
-    height: 30rem;
-    width: 30rem;
-    margin-top: 4rem;
-    margin-left: -5rem;
+    height: 22rem;
+    width: 22rem;
+    margin-top: 2rem;
+    /* margin-left: -3rem; */
     border-radius: 15rem;;
 }
 
@@ -74,7 +81,8 @@ body {
 }
 
 .btngroup {
-    margin-top: 7.2rem;
+    margin-top: 4.5rem;
+    margin-left: -4rem;
 }
 
 .btngroup1 {
@@ -84,7 +92,8 @@ body {
 
 #note {
     background-color: #F8F4E9;
-    /* margin-left: 20.98rem; */
+    margin-left: -3rem;
+    margin-top: -2rem;
     height: 50rem;
     margin-bottom: 8rem;
     border-bottom-left-radius: 0.8rem;
@@ -94,9 +103,10 @@ body {
 
 #portfolio {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: large;
-    padding-left: 2rem;
+    font-size: 15px;
+    padding-left: 1.5rem;
     padding-top: 1rem;
+    padding-right: 10rem;
 }
 
 /* .project_pic {
@@ -122,7 +132,8 @@ body {
 
 .card {
     /* margin-left: -3.5rem; */
-    width: 30rem;
+    width: 20rem;
+    margin-bottom: 2rem;
 }
 
 .fa-css3:before {
@@ -152,8 +163,9 @@ body {
 } */
 
 #technologies {
-    margin-left: -2rem;
+    margin-left: 2rem;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .tech {
@@ -185,6 +197,10 @@ body {
     font-size: 2rem;
     color: #595959;
     margin: 0 1rem 1rem 2rem;
+}
+
+#linkedin {
+    color: #212529;
 }
 
 #resume {
